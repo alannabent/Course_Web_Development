@@ -18,9 +18,13 @@
     section {
         background-color: white;
       padding-top: 30px;
+      text-align: center;
     
        }
     
+       section h1 {
+           text-align: right;
+       }
       
      .column_1, .column_2, .column_3 {
         display: inline-block;
@@ -32,7 +36,7 @@
     }
 
   .column_1 {
-      margin-left: 60px;
+  
   }
 
     
