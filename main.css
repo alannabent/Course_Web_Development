@@ -21,58 +21,55 @@
       text-align: center;
     
        }
-    
-       section h1 {
-        
-       }
-      
+
      .column_1, .column_2, .column_3 {
         display: inline-block;
         background-color:red;
         width: 25%;
         border: 1px solid black;
         margin: 10px;
-        
+        position: relative;
     }
 
-  .column_1 {
-  
-  }
 
     
-    .column_1 h1 {
-       position: relative;
-        background-color: white;
-        width:200px;
-        position: relative;
-        right: -25%;
-        border: 1px solid black;
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align:center;
+    .column_1 h2 {
+        text-align: end;
     }
     
-    .column_2 h1 {
-        position: relative;
-        right:-156px;
-        background-color: white;
-        display: inline;
+    .column_1 h2 span {
+        background-color: orange;
         border: 1px solid black;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-right:10px;
+        padding-left:10px;
         position: relative;
-        margin-left: 50px;
+        top: -20px;
+       
+    }
+    .column_2 .soups_style {
+    text-align: end;
     }
     
-    .column_3 h1 {
-        position: relative;
-        
-        background-color: white;
-        display: inline;
+     .soups_style span {
+        background-color: tan;
         border: 1px solid black;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-right:10px;
+        padding-left:10px;
         position: relative;
+        top: -20px;
+    }
+
+    .column_3 .desserts_style {
+        text-align: end;
+    }
+
+    .desserts_style span {
+        background-color: pink;
+        border: 1px solid black;
+        padding-right:10px;
+        padding-left:10px;
+        position: relative;
+        top: -20px;
     }
   .column_1 p {
       padding-left: 10px;
@@ -133,38 +130,42 @@
          
        }
        
-       .column_1 h1 {
-           position: relative;
-           right: -156px;
-           background-color: white;
-           display: inline;
-           border: 1px solid black;
-           padding-left: 10px;
-           padding-right: 10px;
-           margin-left: 50px;
+       .column_1 h2 {
+        text-align: end;
        }
-       
-       .column_2 h1 {
-           position: relative;
-           right: -215px;
-           background-color: white;
-           display: inline;
-           border: 1px solid black;
-           padding-left: 10px;
-           padding-right: 10px;
-           position: relative;
-       }
-       
-       .column_3 h1 {
-           position: relative;
-           right: -516px;
-           background-color: white;
-           display: inline;
-           border: 1px solid black;
-           padding-left: 10px;
-           padding-right: 10px;
-           position: relative;
 
+       .column_1 h2 span {
+        background-color: orange;
+        border: 1px solid black;
+        padding-right:10px;
+        padding-left:10px;
+        position: relative;
+        top: -20px;
+       }
+
+       .column_2 .soups_style {
+         text-align: end;
+       }
+       
+       .soups_style span {
+        background-color: tan;
+        border: 1px solid black;
+        padding-right:10px;
+        padding-left:10px;
+        position: relative;
+        top: -20px;
+       }
+       .column_3 .desserts_style {
+          text-align: end;
+       }
+
+       .desserts_style span {
+        background-color: pink;
+        border: 1px solid black;
+        padding-right:10px;
+        padding-left:10px;
+        position: relative;
+        top: -20px;
        }
      .column_1 p {
          padding-left: 10px;
@@ -215,50 +216,63 @@
        }
 
        
-       .column_1 h1 {
-           position: relative;
-           right: -156px;
-           background-color: white;
-           display: inline;
-           border: 1px solid black;
-           padding-left: 10px;
-           padding-right: 10px;
+       .column_1 h2 {
+          text-align: end;
        }
        
-       .column_2 h1 {
-           position: relative;
-           right: -215px;
-           background-color: white;
-           display: inline;
-           border: 1px solid black;
-           padding-left: 10px;
-           padding-right: 10px;
-           position: relative;
+       .column_1 h2 span {
+        background-color: orange;
+        border: 1px solid black;
+        padding-right:10px;
+        padding-left:10px;
+        position: relative;
+        top: -20px;
        }
-       
-       .column_3 h1 {
-           position: relative;
-           right: -191px;
-           background-color: white;
-           display: inline;
-           border: 1px solid black;
-           padding-left: 10px;
-           padding-right: 10px;
-           position: relative;
+       .column_2 .soups_style {
+          text-align: end;
+       }
 
+       .soups_style span {
+        background-color: tan;
+        border: 1px solid black;
+        padding-right:10px;
+        padding-left:10px;
+        position: relative;
+        top: -20px;
        }
+
+       .column_3 .desserts_style {
+          text-align: end;
+       }
+
+       .desserts_style span {
+        background-color: pink;
+        border: 1px solid black;
+        padding-right:10px;
+        padding-left:10px;
+        position: relative;
+        top: -20px;
+       }
+
      .column_1 p {
-         padding-left: 10px;
-         padding-right: 10px;
+        
+        margin-left: 10px;
+         position: relative;
+         top: -20px;
+         right: -3px;
      }
       
      .column_2 p {
-         padding-right: 10px;
-         padding-left: 10px;
+        margin-left: 10px;
+        position: relative;
+        top: -20px;
+        right: -3px;
      }
    
      .column_3 p {
-         padding-left: 10px;
-         padding-right: 10px;
+        margin-left: 10px;
+        position: relative;
+        top: -20px;
+        right: -3px;
      }
     }
