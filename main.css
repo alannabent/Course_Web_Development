@@ -17,7 +17,7 @@
         padding: 20px;
         text-align: center;
         font-size: 50px;
-        font-family: 'Dancing Script', cursive;
+        font-family: cursive;
         text-transform: uppercase;
     }
     section {
@@ -42,7 +42,7 @@
     
     .column_1 h2 {
         text-align: end;
-        font-family: 'Dancing Script', cursive;
+        font-family:  cursive;
        
     }
     
@@ -59,7 +59,7 @@
     }
     .column_2 .soups_style {
     text-align: end;
-    font-family: 'Dancing Script', cursive;
+    font-family:  cursive;
     }
     
      .soups_style span {
@@ -75,7 +75,7 @@
 
     .column_3 .desserts_style {
         text-align: end;
-        font-family: 'Dancing Script', cursive;
+        font-family:  cursive;
     }
 
     .desserts_style span {
@@ -128,7 +128,7 @@
            padding: 20px;
            text-align: center;
            font-size: 50px;
-           font-family: 'Dancing Script', cursive;
+           font-family:  cursive;
            text-transform: uppercase;
        }
        section {
@@ -162,7 +162,7 @@
        
        .column_1 h2 {
         text-align: end;
-        font-family: 'Dancing Script', cursive;
+        font-family: cursive;
        }
 
        .column_1 h2 span {
@@ -178,7 +178,7 @@
 
        .column_2 .soups_style {
          text-align: end;
-         font-family: 'Dancing Script', cursive;
+         font-family:  cursive;
        }
        
        .soups_style span {
@@ -193,7 +193,7 @@
        }
        .column_3 .desserts_style {
           text-align: end;
-          font-family: 'Dancing Script', cursive;
+          font-family:  cursive;
        }
 
        .desserts_style span {
@@ -247,7 +247,7 @@
            padding: 20px;
            text-align: center;
            font-size: 50px;
-           font-family: 'Dancing Script', cursive;
+           font-family:  cursive;
            text-transform: uppercase;
        }
        section {
@@ -270,7 +270,7 @@
        
        .column_1 h2 {
           text-align: end;
-          font-family: 'Dancing Script', cursive;
+          font-family:  cursive;
        }
        
        .column_1 h2 span {
@@ -285,7 +285,7 @@
        }
        .column_2 .soups_style {
           text-align: end;
-          font-family: 'Dancing Script', cursive;
+          font-family: cursive;
        }
 
        .soups_style span {
@@ -301,7 +301,7 @@
 
        .column_3 .desserts_style {
           text-align: end;
-          font-family: 'Dancing Script', cursive;
+          font-family: cursive;
        }
 
        .desserts_style span {
